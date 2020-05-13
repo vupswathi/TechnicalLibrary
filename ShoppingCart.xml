@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ShoppingList>
+  <openitem1>//*[@id='homefeatured']/li[3]/div/div[1]/div/a[1]/img</openitem1>
+  <openitem2>//*[@id='homefeatured']/li[1]/div/div[1]/div/a[1]/img</openitem2>
+  <Item1xpath>//*[@id='add_to_cart']/button</Item1xpath>
+  <Item2xpath>//*[@id='add_to_cart']/button</Item2xpath>
+  <ContinueShopping>//*[@id='layer_cart']/div[1]/div[2]/div[4]/span</ContinueShopping>
+  <Homepage>//*[@id='header_logo']/a/img</Homepage>  
+  <ProceedCheckout>//*[@id='layer_cart']/div[1]/div[2]/div[4]/a</ProceedCheckout>
+  <ProceedNext>Proceed to checkout</ProceedNext>
+  <CreateEmailID>email_create</CreateEmailID>
+  <EmailAddress>joegovett1@gmail.com</EmailAddress>
+  <CreateAccID>SubmitCreate</CreateAccID>
+  <MrsID>id_gender2</MrsID>
+  <firstnameID>customer_firstname</firstnameID>
+  <firstname>Joe M</firstname>
+  <lastnameID>customer_lastname</lastnameID>
+  <lastname>Govett</lastname>
+  <emailID>email</emailID>
+  <PasswordID>passwd</PasswordID>
+  <password>interview</password>  
+  <AddrTextID>address1</AddrTextID>
+  <Address>12 Darcy Street</Address>
+  <CityID>city</CityID>
+  <suburb>Huston</suburb>
+  <!--<stateID></stateID>
+  <state></state>
+  <postcodeID></postcodeID>
+  <postcode></postcode>-->
+  <CountryID>id_country</CountryID>
+  <Country>//*[@id='id_country']/option[2]</Country>
+  <stateID>id_state</stateID>
+  <state>//*[@id='id_state']/option[6]</state>
+  <postcodeID>postcode</postcodeID>
+  <postcode>12345</postcode>
+  <TelephoneID>phone_mobile</TelephoneID>
+  <Telnumber>0456732999</Telnumber>
+  <RegisterID>submitAccount</RegisterID>
+  <AddProceedCO>//*[@id='center_column']/form/p/button</AddProceedCO>
+  <AgreeTerms>cgv</AgreeTerms>
+  <proceedshipping>//*[@id='form']/p/button</proceedshipping>
+  <WirePay>//*[@id='HOOK_PAYMENT']/div[1]/div/p/a</WirePay>
+  <ConfirmOrder>//*[@id='cart_navigation']/button</ConfirmOrder>
+</ShoppingList>
